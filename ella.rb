@@ -15,9 +15,24 @@
 
 #name = "Martha"
 
-def say_hello(name = "Ruby Programmer")
-  #name = "Lucy"
-  puts "Hello my name is #{name}"
-end
-say_hello("Alicia")
+# def say_hello(name = "Ruby Programmer") #this is defining method 
+#   name = "Lucy"
+#   puts "Hello my name is #{name}"
+# end
+# say_hello("Alicia")
+
+
+room = ["Beyonce", "Taylor Swift", "Cardi B", "Adele", "Selena", "Camila", "Lady Gaga"]
+
+puts room[0..2]
+
+
+roomse = ["Beyonce", "Cardi B", "Adele"]
+
+puts " 2nd example"
+roomse.insert(1, "Taylor Swift")
+puts roomse
+
+
+
   
